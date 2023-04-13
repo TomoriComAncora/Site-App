@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tit
+        le>Apple Página</title>
+    </head>
+    <body>
+      <nav><!--para criar menus de navegação-->
+        <a href="./index.html">Iphone 13 Pro</a>
+        <a href="./iphone12.html"> Iphone 12</a>
+      </nav>
+        <section>
+            <h1><!--titulo-->
+                Iphone 13 Pro<!--subtitulo-->
+            </h1>
+            <h2>
+                É todo Pro.
+            </h2>
+            <video muted autoplay src="assets/iphone13-video.mp4"></video>
+        </section>
+        <hr>
+        <section>
+            <div>
+                <p>Até</p>
+            </div>
+            <div>
+                <p>1TB</p>
+            </div>
+            <div>
+                <p>de armazenamento. Suficiente para todas as fotos e vídeos</p><!--Pra separa com paragrafo, esse pula uma linha sozinho-->
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div>
+                <img src="assets/iphone-brilho.jpg"><!--pra adicionar uma imagem. scr="" é para apontar o caminho:ctrl + espaço-->
+            </div>
+            <div>
+                <div>
+                    <span>
+                        Até
+                    </span> 
+                    <span>
+                        25% mais brilhante ao ar livre
+                    </span> 
+                    <span>
+                        para conteudo ainda mais nitido a luz do sol
+                    </span>
+                    <div>
+                        <span>
+                            Tecnologia OLED exclusiva
+                        </span>
+                        <span><!--Pra separar um texto sem pular linha igual com P-->
+                            que leva a resolução e as cores até o limite da tela
+                        </span>
+                    </div>
+                </div>
+            </div><!--pra criar uma divisão, pode ter uma dentro da outra-->
+        </section>
+        <hr>
+        <section><!--criar uma seção-->
+            <div>
+                <p>bla bla bla bla bla apple. Bla bla bla camera Blabla.</p>
+            </div>
+            <div>
+                <img src="assets/camera-iphone.png">
+            </div>
+        </section>
+        <hr><!--pra fazer uma linha -->
+        <section>
+            <div>
+                <ol><!--pra uma lista ordenada-->
+                    <li><!--pra criar cada elemento de uma lista-->
+                        Aponte
+                    </li>
+                    <li>
+                        Dê o play
+                    </li>
+                    <li>
+                        E faça vídeos proficionais
+                    </li>
+                </ol>
+            </div>
+            <div>
+                <ul><!--pra uma lista não ordenada-->
+                    <li>
+                        Rápido como nenhum outro
+                    </li>
+                    <li>
+                        Bateria dura muito mais
+                    </li>
+                    <li>
+                        Câmera com qualidade profissional
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div>
+                <img src="assets/tamanho-iphone.png">
+            </div>
+            <div>
+                <table><!--pra criar uma tabela-->
+                    <tr><!--criar linhas-->
+                        <th><!--criar colunas-->
+                            Modelo
+                        </th>
+                        <th>
+                            Tamanho
+                        </th>
+                        <th>
+                            Preço
+                        </th>
+                    </tr>
+                    <tr>
+                        <td><!--para inserir dados na tabela-->
+                            Iphone 13 Pro
+                        </td>
+                        <td>
+                            6,1 pol
+                        </td>
+                        <td>
+                            R$ 9.499
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Iphone Pro Max
+                        </td>
+                        <td>
+                            6,7 pol
+                        </td>
+                        <td>
+                            R$ 10.499
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div>
+                <h2>Contato</h2>
+            </div>
+            <div>
+                <form><!--para criar um formulario-->
+                    <div>
+                      <label><!--nome que você quer dar ao input-->
+                        Nome: 
+                      </label>
+                      <input placeholder="Nome completo" minlength="3" maxlength="100" required type="text"><!--para o usuario inserir dados, nele vc consegue escolher o tipo que vai ser aceito; required para ser obrigatorio-->
+                    </div>
+                    <div>
+                      <label>
+                        Idade: 
+                      </label>
+                      <input placeholder="Idade" min="18" max="115" required type="number">
+                    </div>
+                    <div>
+                      <label>E-mail: </label>
+                      <input placeholder="E-mail" required type="email">
+                    </div>
+                    <div>
+                      <label>Mensagem: </label>
+                      <textarea placeholder="Mensagem a nós" required></textarea><!--para criar uma area de texto-->
+                    </div>
+                    <div>
+                      <button type="submit">
+                        Enviar
+                      </button>
+                    </div>
+                </form>
+            </div>
+            <!--minlength e maxlength servem para definir numero de caracteres-->
+            <!--placeholder texto que fica apagadinho para ajudar-->
+            <!--min max para definir de que numero a que numero é aceito-->
+        </section>
+        <hr>
+        <footer><!--para ultima seção se coloca um rodapé-->
+          <p>
+            Copiado por  <a href="https://www.youtube.com/">Lucas</a> 2022<!-- a = ancora; href = pra onde deve apontar-->
+          </p>
+        </footer>
+      
+    </body>
+</html>
